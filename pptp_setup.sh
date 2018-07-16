@@ -12,7 +12,7 @@ EOF
 
 cat >> /etc/pptpd.conf << EOF
 localip 192.168.0.1
-remoteip 192.168.0.234-238，192.168.0.245
+remoteip 192.168.0.234-238
 EOF
 
 cat >> /etc/sysctl.conf << EOF
